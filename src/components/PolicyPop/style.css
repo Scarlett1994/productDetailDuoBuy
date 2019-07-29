@@ -1,0 +1,28 @@
+.policy-dot{
+    height: 0.3rem;
+    width: 0.3rem;
+    border-radius: 50%;
+    background-color:#FD2246;
+}
+.policy-outer-container {
+    padding: 0.5rem;
+    background-color: white;
+    border-top: 1px solid #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:0.8rem;
+}
+.policy-item-container{
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+.policy-drawer .ant-drawer-content-wrapper{
+   max-width:640px;
+}
+@media screen and (min-width: 640px) {
+    .policy-drawer .ant-drawer-content-wrapper{
+        left:calc(50% - 320px);
+    }
+}

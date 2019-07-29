@@ -1,0 +1,16 @@
+.card-header-container{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  border-bottom:1px solid #F5F5F5;
+  padding-bottom:0.3rem;
+  color:rgba(0,0,0,0.85);
+  font-size:1rem;
+  font-weight:500;
+}
+.card-header-right-side{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  color:rgba(0,0,0,0.3)
+}

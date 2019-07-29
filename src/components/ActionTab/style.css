@@ -1,0 +1,29 @@
+.action-tab-container {
+    position: fixed;
+    bottom:0;
+    width:100%;
+    max-width:640px;
+    background-color: white;
+    height:49px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+.action-icon{
+    flex:0.15;
+    text-align:center;
+    border-right: 1px solid #F5F5F5;
+    line-height:49px;
+}
+.action-button{
+    flex:0.35;
+    height:49px;
+    background-color:#FD2246;
+    color:white;
+    font-weight:700;
+    font-size:0.8rem;
+    border:0px solid;
+}
+.price-large{
+    font-size:1rem;
+}

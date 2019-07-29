@@ -1,0 +1,28 @@
+.swiper-list-container{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    height:3rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    border-bottom:1px solid #F5F5F5;
+}
+.swiper-list-left-side {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.swiper-list-right-side {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.join-button{
+    background-color:#FD2246;
+    color:white;
+    font-weight:700;
+    font-size:0.8rem;
+    border:0px solid;
+    height:2rem;
+    border-radius: 0.2rem;
+}
